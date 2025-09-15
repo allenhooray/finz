@@ -1,4 +1,4 @@
-import { Button, type ButtonVariants } from "@/components/ui/button";
+import { Button, type ButtonVariants } from "@/components/base/button";
 import type { Meta, StoryObj } from "@storybook/vue3-vite";
 import { createArgTypesClass } from "./utils/create-arg-types";
 
