@@ -23,16 +23,15 @@ const meta: Meta<typeof Button> = {
   args: {
     variant: 'default',
     size: 'default',
-    default: 'Button'
   }
 };
 export default meta;
 
 type Story = StoryObj<typeof meta>;
 
-export const IconButton: Story = {
+export const Story0: Story = {
+  name: 'Show Case',
   args: {
-    size: 'icon',
-    default: 'Icon Button'
+    default: 'Button'
   }
 }
