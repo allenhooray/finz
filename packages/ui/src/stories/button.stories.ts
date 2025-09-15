@@ -8,7 +8,7 @@ const argTypes = createArgTypesClass<ButtonVariants>({
 })
 
 const meta: Meta<typeof Button> = {
-  title: "UI/Button",
+  title: "Base/Button",
   component: Button,
   tags: ["autodocs"],
   argTypes,
