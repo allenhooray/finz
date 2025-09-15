@@ -5,7 +5,7 @@
 <script lang="ts" setup>
 import { computed } from 'vue';
 
-import './button.css';
+import './eg-button.css';
 
 const props = withDefaults(
   defineProps<{
