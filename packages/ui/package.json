@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "dev": "pnpm storybook",
+    "build": "pnpm build-storybook"
   },
   "keywords": [],
   "author": "",
@@ -29,10 +31,12 @@
     "@storybook/addon-docs": "^9.1.6",
     "@storybook/addon-vitest": "^9.1.6",
     "@storybook/vue3-vite": "^9.1.6",
-    "storybook": "^9.1.6",
-    "vitest": "^3.2.4",
+    "@vitejs/plugin-vue": "^6.0.1",
     "@vitest/browser": "^3.2.4",
+    "@vitest/coverage-v8": "^3.2.4",
     "playwright": "^1.55.0",
-    "@vitest/coverage-v8": "^3.2.4"
+    "storybook": "^9.1.6",
+    "vite": "^7.1.5",
+    "vitest": "^3.2.4"
   }
 }
