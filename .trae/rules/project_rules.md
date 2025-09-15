@@ -1,5 +1,9 @@
-- UI:
-  - 使用 [shadcn-vue](https://www.shadcn-vue.com/llms.txt) 做 UI 组件库，可以调用对应的 MCP Server
+# 仓库与工程
+- 这是一个 Monorepo 项目，项目结构如下：
+  - packages
+    - ui: 业务无关的通用的 UI 组件，使用 [shadcn-vue](https://www.shadcn-vue.com/llms.txt) 做 UI 组件库，可以调用对应的 MCP Server
+
+# 代码风格
 - 风格：
   - 文件名：
     - 使用首字母大写的驼峰命名法来命名 Class 文件
