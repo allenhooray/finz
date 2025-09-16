@@ -1,5 +1,6 @@
 {
   "appName": "FinZ",
+  "appSlogan": "One-stop financial dashboard",
   "currency": {
     "usd": "USD",
     "jpy": "JPY",
