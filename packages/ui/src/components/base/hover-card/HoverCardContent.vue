@@ -8,7 +8,7 @@ import {
   HoverCardPortal,
   useForwardProps,
 } from "reka-ui"
-import { cn } from "../../../lib/utils"
+import { cn } from "@/lib/utils"
 
 const props = withDefaults(
   defineProps<HoverCardContentProps & { class?: HTMLAttributes["class"] }>(),
