@@ -4,10 +4,6 @@ import { Select, SelectContent, SelectGroup, SelectItem, SelectTrigger, SelectVa
 
 const props = defineProps<SelectProps>();
 const value = defineModel<SelectValueType>();
-
-import { useI18n } from 'vue-i18n';
-
-const { t } = useI18n();
 </script>
 
 <template>
@@ -18,7 +14,7 @@ const { t } = useI18n();
     <SelectContent>
       <SelectGroup>
         <SelectItem v-for="item in props.options" :key="item.value" :value="item.value" :disabled="item.disabled">
-          {{ t(item.label) }}
+          {{ item.label }}
         </SelectItem>
       </SelectGroup>
     </SelectContent>

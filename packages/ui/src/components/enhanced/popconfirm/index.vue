@@ -2,15 +2,12 @@
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/base/popover'
 import { PopoverPortal } from 'reka-ui'
 import type { PopconfirmProps, PopconfirmEmits } from './type';
-import { useI18n } from 'vue-i18n';
 import { Button } from '@/components/base/button';
 import { inject } from 'vue';
 
 const props = defineProps<PopconfirmProps>()
 const emits = defineEmits<PopconfirmEmits>()
 const container = inject('popup-container', document.body)
-
-const { t } = useI18n()
 </script>
 
 <template>
@@ -26,7 +23,7 @@ const { t } = useI18n()
         </div>
         <div class="flex flex-row justify-end gap-2">
           <Button @click="() => emits('confirm')" variant="destructive">
-            {{ t('confirm') }}
+            {{ props.buttonText?.confirm || 'Confirm' }}
           </Button>
         </div>
       </PopoverContent>
