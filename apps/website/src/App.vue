@@ -1,11 +1,24 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { SidebarProvider, SidebarInset } from '@finz/ui'
+import TheSidebar from '@/components/the-sidebar/index.vue'
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <SidebarProvider>
+    <!-- 侧边栏 -->
+    <TheSidebar />
+
+    <!-- 主内容区域，留出侧边栏空间 -->
+    <SidebarInset>
+      <router-view v-slot="{ Component }">
+        <transition name="fade">
+          <keep-alive>
+            <component :key="$route.path" :is="Component" />
+          </keep-alive>
+        </transition>
+      </router-view>
+    </SidebarInset>
+  </SidebarProvider>
 </template>
 
 <style scoped></style>

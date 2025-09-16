@@ -1,0 +1,138 @@
+{
+  "appName": "Finance Table",
+  "currency": {
+    "usd": "USD",
+    "jpy": "JPY",
+    "cny": "CNY",
+    "eur": "EUR",
+    "gbp": "GBP"
+  },
+  "sideBar": {
+    "dashboard": "Dashboard",
+    "system": "System",
+    "home": "Home",
+    "tools": "Tools",
+    "currency": "Currency",
+    "gold": "Gold",
+    "crypto": "Cryptocurrency",
+    "globalConfig": "Global Config",
+    "about": "About"
+  },
+  "page": {
+    "home": {
+      "title": "Home",
+      "description": "Home"
+    },
+    "currency": {
+      "title": "Currency",
+      "description": "Currency related tools"
+    },
+    "gold": {
+      "title": "Gold",
+      "description": "Gold"
+    },
+    "crypto": {
+      "title": "Cryptocurrency",
+      "description": "Cryptocurrency"
+    },
+    "cryptocurrency": "Cryptocurrency",
+    "gridLayoutPage": {
+      "toolbar": {
+        "edit": "Edit",
+        "reset": "Reset",
+        "addCard": "Add Card",
+        "add": "Add",
+        "done": "Done",
+        "fullscreen": "Fullscreen",
+        "exitFullscreen": "Exit Fullscreen"
+      }
+    }
+  },
+  "card": {
+    "baseCard": {
+      "edit": "Edit",
+      "delete": "Delete"
+    }
+  },
+  "cardName": {
+    "RateDisplayCard": "Rate Display Card",
+    "RateCalculatorCard": "Rate Calculator Card",
+    "DigitalClock": "Digital Clock Card",
+    "GoldPriceConverterCard": "Gold Price Converter Card",
+    "GoldPriceCard": "Gold Price Card",
+    "WelcomeCard": "Welcome Card"
+  },
+  "cardTitle": {
+    "rate": "Rate",
+    "rateCalculator": "Rate Calculator",
+    "goldPriceConverter": "Gold Price Converter",
+    "goldPrice": "Gold Price"
+  },
+  "welcome": {
+    "title": "Welcome to Finance Table",
+    "message": "You can customize your workspace by adding, editing, and deleting cards.",
+    "addCard": "Add new cards to extend your workspace",
+    "editCard": "Customize existing cards to fit your needs",
+    "deleteCard": "Remove cards you no longer need",
+    "cardSettings": "Customize the appearance and behavior of your cards",
+    "getStarted": "Start by adding your first card:"
+  },
+  "units": {
+    "weight": {
+      "ounce": "ounce",
+      "gram": "gram"
+    }
+  },
+  "londonGoldPrice": "London Gold Price",
+  "shanghaiGoldPrice": "Shanghai Gold Price",
+  "enterLondonGoldPrice": "Enter London gold price, automatically calculate Shanghai gold price",
+  "enterShanghaiGoldPrice": "Enter Shanghai gold price, automatically calculate London gold price",
+  "pleaseEnterLondonGoldPrice": "Please enter London gold price",
+  "pleaseEnterShanghaiGoldPrice": "Please enter Shanghai gold price",
+  "currentExchangeRate": "Current exchange rate",
+  "ounceToGramConversion": "1 ounce = 31.1035 grams",
+  "gridGap": "Grid Gap",
+  "baseCurrency": "Base Currency",
+  "quoteCurrency": "Quote Currency",
+  "defaultBaseCurrency": "Default Base Currency",
+  "defaultQuoteCurrency": "Default Quote Currency",
+  "rateDisplay": "Rate Display",
+  "cardConfig": "Card Configuration",
+  "styleSettings": "Style Settings",
+  "dataSettings": "Data Settings",
+  "cardPrimaryColor": "Card Primary Color",
+  "cancel": "Cancel",
+  "save": "Save",
+  "lastUpdate": "Last Update",
+  "loading": "Loading...",
+  "autoRefreshing": "Auto-refreshing",
+  "manualRefresh": "Refresh",
+  "selectBaseCurrency": "Select Base Currency",
+  "selectQuoteCurrency": "Select Quote Currency",
+  "cardDefaultThemeColor": "Card Default Theme Color",
+  "goldType": "Gold Type",
+  "selectGoldType": "Select Gold Type",
+  "or": "or",
+  "pleaseSelectTradingDirection": "Please select trading direction",
+  "calculationFailed": "Calculation failed",
+  "pleaseEnterValidEntryPrice": "Please enter valid entry price",
+  "pleaseEnterValidLeverage": "Please enter valid leverage",
+  "pleaseEnterValidMaintenanceMarginRate": "Please enter valid maintenance margin rate",
+  "confirm": "Confirm",
+  "localTimezone": "Local Timezone",
+  "timezone": "Timezone",
+  "displayFormat": "Display Format",
+  "formatHHMMSS": "HH:MM:SS",
+  "formatHHMM": "HH:MM",
+  "formatMMSS": "MM:SS",
+  "selectTimezone": "Select Timezone",
+  "selectFormat": "Select Format",
+  "currentDate": "Current Date",
+  "amount": "Amount",
+  "sizeBar": {
+    "toggleTheme": "Toggle Theme",
+    "toggleLanguage": "Toggle Language"
+  },
+  "sureDelete?": "Are you sure to delete?",
+  "sureDeletePage": "Are you sure to reset the page?"
+}

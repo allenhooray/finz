@@ -1,0 +1,134 @@
+{
+  "appName": "金融工作台",
+  "currency": {
+    "usd": "美元",
+    "cny": "人民币",
+    "eur": "欧元",
+    "gbp": "英镑",
+    "jpy": "日元"
+  },
+  "sideBar": {
+    "dashboard": "看板",
+    "system": "系统",
+    "home": "首页",
+    "tools": "工具",
+    "currency": "主权货币",
+    "gold": "黄金",
+    "crypto": "加密货币",
+    "globalConfig": "全局配置",
+    "about": "关于"
+  },
+  "page": {
+    "currency": {
+      "title": "主权货币",
+      "description": "提供主权货币相关的工具"
+    },
+    "gold": {
+      "title": "黄金",
+      "description": "黄金"
+    },
+    "crypto": {
+      "title": "加密货币",
+      "description": "加密货币"
+    },
+    "cryptocurrency": "数字货币",
+    "gridLayoutPage": {
+      "toolbar": {
+        "edit": "编辑",
+        "reset": "重置",
+        "addCard": "添加卡片",
+        "add": "添加",
+        "done": "完成",
+        "fullscreen": "全屏",
+        "exitFullscreen": "退出全屏"
+      }
+    }
+  },
+  "card": {
+    "baseCard": {
+      "edit": "编辑",
+      "delete": "删除"
+    }
+  },
+  "cardName": {
+    "RateDisplayCard": "汇率显示卡片",
+    "RateCalculatorCard": "汇率计算器卡片",
+    "DigitalClock": "数字时钟卡片",
+    "GoldPriceConverterCard": "黄金价格换算器卡片",
+    "GoldPriceCard": "黄金价格卡片",
+    "WelcomeCard": "欢迎卡"
+  },
+  "cardTitle": {
+    "rate": "汇率",
+    "rateCalculator": "汇率计算器",
+    "goldPriceConverter": "黄金价格换算器",
+    "goldPrice": "黄金价格"
+  },
+  "welcome": {
+    "title": "欢迎使用金融工作台",
+    "message": "您可以通过添加、编辑和删除卡片来自定义您的工作区。",
+    "addCard": "添加新卡片以扩展您的工作区",
+    "editCard": "自定义现有卡片以满足您的需求",
+    "deleteCard": "移除您不再需要的卡片",
+    "cardSettings": "自定义卡片的外观和行为",
+    "getStarted": "首先添加您的第一张卡片："
+  },
+  "units": {
+    "weight": {
+      "ounce": "盎司",
+      "gram": "克"
+    }
+  },
+  "londonGoldPrice": "伦敦金价格",
+  "shanghaiGoldPrice": "沪金价格",
+  "enterLondonGoldPrice": "输入伦敦金价格，自动计算沪金价格",
+  "enterShanghaiGoldPrice": "输入沪金价格，自动计算伦敦金价格",
+  "pleaseEnterLondonGoldPrice": "请输入伦敦金价格",
+  "pleaseEnterShanghaiGoldPrice": "请输入沪金价格",
+  "currentExchangeRate": "当前汇率",
+  "ounceToGramConversion": "1盎司 = 31.1035克",
+  "gridGap": "网格间距",
+  "baseCurrency": "基础货币",
+  "quoteCurrency": "报价货币",
+  "defaultBaseCurrency": "默认基础货币",
+  "defaultQuoteCurrency": "默认报价货币",
+  "rateDisplay": "汇率显示",
+  "cardConfig": "卡片配置",
+  "styleSettings": "样式设置",
+  "dataSettings": "数据设置",
+  "cardPrimaryColor": "卡片主颜色",
+  "cancel": "取消",
+  "save": "保存",
+  "lastUpdate": "最后更新",
+  "loading": "加载中...",
+  "autoRefreshing": "自动刷新中",
+  "manualRefresh": "刷新",
+  "selectBaseCurrency": "选择基础货币",
+  "selectQuoteCurrency": "选择报价货币",
+  "cardDefaultThemeColor": "卡片默认主题色",
+  "goldType": "黄金类型",
+  "selectGoldType": "选择黄金类型",
+  "or": "或",
+  "pleaseSelectTradingDirection": "请选择交易方向",
+  "calculationFailed": "计算失败",
+  "pleaseEnterValidEntryPrice": "请输入有效的开仓均价",
+  "pleaseEnterValidLeverage": "请输入有效的杠杆倍数",
+  "pleaseEnterValidMaintenanceMarginRate": "请输入有效的维持保证金率",
+  "confirm": "确认",
+  "localTimezone": "本地时区",
+  "timezone": "时区",
+  "displayFormat": "显示格式",
+  "formatHHMMSS": "时分秒",
+  "formatHHMM": "时分",
+  "formatMMSS": "分秒",
+  "selectTimezone": "选择时区",
+  "selectFormat": "选择格式",
+  "currentDate": "当前日期",
+  "amount": "金额",
+  "sizeBar": {
+    "toggleTheme": "切换主题",
+    "toggleLanguage": "切换多语言"
+  },
+  "sureDelete?": "确认删除吗？",
+  "sureDeletePage": "确认重置页面吗？"
+}
