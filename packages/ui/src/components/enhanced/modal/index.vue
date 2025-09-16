@@ -4,18 +4,17 @@ import { DialogPortal } from 'reka-ui'
 import type { ModalProps } from './type';
 import { inject } from 'vue';
 
-const { title, open } = defineProps<
+const { title } = defineProps<
   ModalProps
 >();
+const open = defineModel<boolean>({
+  default: false,
+})
 const container = inject('popup-container', document.body)
-
-const emits = defineEmits<{
-  (e: 'onClose'): void;
-}>();
 
 const handleUpdateOpen = (newOpen: boolean) => {
   if (!newOpen) {
-    emits('onClose');
+    open.value = false;
   }
 }
 </script>
@@ -25,7 +24,14 @@ const handleUpdateOpen = (newOpen: boolean) => {
     <DialogPortal :to="container">
       <DialogContent class="sm:max-w-[425px]">
         <DialogHeader>
-          <DialogTitle>{{ title }}</DialogTitle>
+          <DialogTitle>
+            <template v-if="!title">
+              <slot name="title" />
+            </template>
+            <template v-else>
+              {{ title }}
+            </template>
+          </DialogTitle>
           <DialogDescription>
             <slot name="description" />
           </DialogDescription>
