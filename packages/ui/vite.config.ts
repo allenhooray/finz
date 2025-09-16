@@ -10,7 +10,7 @@ export default defineConfig({
     tailwindcss(),
     dts({
       tsconfigPath: './tsconfig.app.json',
-      rollupTypes: true,
+      exclude: ['src/stories/**/*'],
     })],
   build: {
     lib: {
