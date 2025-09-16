@@ -1,5 +1,5 @@
 {
-  "name": "ui",
+  "name": "@finz/ui",
   "version": "1.0.0",
   "description": "",
   "type": "module",
@@ -8,8 +8,23 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "dev": "pnpm storybook",
-    "build": "pnpm build-storybook"
+    "build": "vite build"
   },
+  "exports": {
+    ".": {
+      "import": "./src/index.ts",
+      "types": "./src/index.ts"
+    },
+    "./styles/*": {
+      "import": "./src/styles/*"
+    }
+  },
+  "files": [
+    "src/**/*.ts",
+    "src/**/*.vue",
+    "package.json",
+    "tsconfig.json"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",

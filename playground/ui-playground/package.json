@@ -1,5 +1,5 @@
 {
-  "name": "ui-playground",
+  "name": "@finz/ui-playground",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "ui": "workspace:^",
+    "@finz/ui": "workspace:^",
     "vue": "^3.5.18"
   },
   "devDependencies": {
