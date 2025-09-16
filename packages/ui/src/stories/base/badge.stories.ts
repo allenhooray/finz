@@ -1,9 +1,9 @@
 import { Badge, type BadgeVariants } from "@/components/base/badge";
 import type { Meta, StoryObj } from "@storybook/vue3-vite";
-import { createArgTypesClass } from "./utils/create-arg-types";
+import { createArgTypesClass } from "@/stories/utils/create-arg-types";
 
 const argTypes = createArgTypesClass<BadgeVariants>({
-  variant: ["default"],
+  variant: ["default", "secondary", "destructive", "outline"],
 })
 
 const meta: Meta<typeof Badge> = {

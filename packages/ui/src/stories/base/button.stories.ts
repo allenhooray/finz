@@ -1,6 +1,6 @@
 import { Button, type ButtonVariants } from "@/components/base/button";
 import type { Meta, StoryObj } from "@storybook/vue3-vite";
-import { createArgTypesClass } from "./utils/create-arg-types";
+import { createArgTypesClass } from "@/stories/utils/create-arg-types";
 
 const argTypes = createArgTypesClass<ButtonVariants>({
   variant: ["default", "destructive", "outline", "secondary", "ghost", "link"],
